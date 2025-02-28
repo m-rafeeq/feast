@@ -1,0 +1,52 @@
+# Core build requirements
+pybindgen==0.22.0
+setuptools>=60
+setuptools_scm>=6.2
+sphinx!=4.0.0
+wheel>=0.36.2
+
+# Cython requirements (consolidated versions)
+Cython>=0.29.34,<3.1
+
+# flit-core dependencies (latest compatible range)
+flit-core>=3.2,<4
+
+# hatch-related packages (latest compatible versions)
+hatch-fancy-pypi-readme>=23.2.0
+hatch-vcs==0.4.0
+hatchling>=1.6.0,<2
+
+# maturin and meson-python (resolved conflict)
+maturin>=1,<2
+meson-python>=0.15.0,<0.16.0
+meson>=0.63.3
+
+# mypy and typing extensions
+mypy>=1.4.1,<=1.14.0
+mypy_extensions>=1.0.0
+typing-extensions>=4.6.0
+
+# Build tools and dependencies
+ninja>=1.8.2
+numpy>=1.25
+packaging>=24.2
+pathspec>=0.10.1
+pdm-backend
+pluggy>=1.0.0
+pyproject-metadata>=0.7.1
+semantic_version>=2.8.2,<3
+
+# setuptools and related (avoid conflicts and duplication)
+setuptools>=75.1.0
+setuptools-rust>=1.4.0
+setuptools-scm>=8
+
+# tomli and others
+tomli>=1.2.2
+trove-classifiers
+types-psutil
+types-setuptools
+
+# versioneer
+versioneer==0.29
+versioneer[toml]
