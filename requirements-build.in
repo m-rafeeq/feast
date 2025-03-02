@@ -24,6 +24,7 @@ pluggy>=1.0.0
 pyproject-metadata>=0.7.1
 scikit-build-core>=0.10
 semantic_version<3,>=2.8.2
+greenlet>=2.0.2
 
 # Setuptools requirements
 setuptools>=75.1.0
