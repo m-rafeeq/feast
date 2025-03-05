@@ -16,7 +16,7 @@ meson>=1.2.3
 mypy<=1.14.0,>=1.4.1
 mypy_extensions>=1.0.0
 ninja>=1.8.2
-numpy>=2.0
+numpy<2,>=1.22
 packaging>=24.2
 pathspec>=0.10.1
 pdm-backend
@@ -42,3 +42,6 @@ types-setuptools
 typing-extensions!=4.7.0,>=4.6.0
 versioneer==0.29
 versioneer[toml]
+
+feast[aws,gcp,snowflake,redis,go,mysql,postgres,opentelemetry,grpcio,k8s,duckdb,milvus]==0.46.0
+
