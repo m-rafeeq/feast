@@ -1,5 +1,100 @@
 # Changelog
 
+# [0.47.0](https://github.com/feast-dev/feast/compare/v0.46.0...v0.47.0) (2025-03-10)
+
+
+* feat!: Include PUBLIC_URL in defaultProjectListPromise URL in /ui ([2f0f7b3](https://github.com/feast-dev/feast/commit/2f0f7b386c7297ea8393ad4e3d73b198581f341b))
+
+
+### Bug Fixes
+
+* Add transformation_service_endpoit to support Go feature server. ([#5071](https://github.com/feast-dev/feast/issues/5071)) ([5627d7c](https://github.com/feast-dev/feast/commit/5627d7cd3676d61290cd716b74feb9212227b5fa))
+* Adding extra space on the VM to kind cluster to see if this solves the issue with memory not available with operator e2e tests. ([#5102](https://github.com/feast-dev/feast/issues/5102)) ([e6e928c](https://github.com/feast-dev/feast/commit/e6e928c1f53fe323359275d9ab05b235ace04026))
+* Allow unencrypted Snowflake key ([#5097](https://github.com/feast-dev/feast/issues/5097)) ([87a7c23](https://github.com/feast-dev/feast/commit/87a7c23dac7e5b99471b90ee9f2bf375c5705210))
+* Cant add different type of list types ([#5118](https://github.com/feast-dev/feast/issues/5118)) ([bebd7be](https://github.com/feast-dev/feast/commit/bebd7be16aeabc2c7f2e0f570393c0fabe219d8b))
+* Fixing transformations on writes ([#5127](https://github.com/feast-dev/feast/issues/5127)) ([95ac34a](https://github.com/feast-dev/feast/commit/95ac34a63ce99186be003ba28a21f93fc9d81fce))
+* Identify s3/remote uri path correctly ([#5076](https://github.com/feast-dev/feast/issues/5076)) ([93becff](https://github.com/feast-dev/feast/commit/93becff68a3552c0cfa6dbcd2b9e778083328472))
+* Increase available action VM storage and reduce dev feature-server image size ([#5112](https://github.com/feast-dev/feast/issues/5112)) ([75f5a90](https://github.com/feast-dev/feast/commit/75f5a90536f7caa566b38b9c368ec33a90d2bfa5))
+* Move Feast to pyproject.toml instead of setup.py ([#5067](https://github.com/feast-dev/feast/issues/5067)) ([4231274](https://github.com/feast-dev/feast/commit/4231274800873c1421ffa95602d7ee36a9265eb5))
+* Skip refresh if already in progress or if lock is already held ([#5068](https://github.com/feast-dev/feast/issues/5068)) ([f3a24de](https://github.com/feast-dev/feast/commit/f3a24dea078ca5ecaace9fe100b7190972e6617d))
+
+
+### Features
+
+* Add an OOTB Chat uI to the Feature Server to support RAG demo ([#5106](https://github.com/feast-dev/feast/issues/5106)) ([40ea7a9](https://github.com/feast-dev/feast/commit/40ea7a924bcfa6b9ca55125c1ba7ac9c82f6d280))
+* Add Couchbase Columnar as an Offline Store ([#5025](https://github.com/feast-dev/feast/issues/5025)) ([4373cbf](https://github.com/feast-dev/feast/commit/4373cbf9974eff7f8913a1d0ade14c0a1f385295))
+* Add Feast Operator RBAC example with Kubernetes Authentication … ([#5077](https://github.com/feast-dev/feast/issues/5077)) ([2179fbe](https://github.com/feast-dev/feast/commit/2179fbe41b53e1c10bf83f142fcc7fba43e83bdf))
+* Added docling and pytorch as add on ([#5089](https://github.com/feast-dev/feast/issues/5089)) ([135342b](https://github.com/feast-dev/feast/commit/135342bb1665dbed58912c61ee7c00e2f61b6ef2))
+* Feast Operator example with Postgres in TLS mode. ([#5028](https://github.com/feast-dev/feast/issues/5028)) ([2c46f6a](https://github.com/feast-dev/feast/commit/2c46f6a283294fc4c7d90c792d560f01ae0f1b64))
+* Operator - Add feastProjectDir section to CR with git & init options ([#5079](https://github.com/feast-dev/feast/issues/5079)) ([d64f01e](https://github.com/feast-dev/feast/commit/d64f01ecf406f9d429196ae0bd08a84ec90f0c15))
+* Override the udf name when provided as input to an on demand transformation ([#5094](https://github.com/feast-dev/feast/issues/5094)) ([8a714bb](https://github.com/feast-dev/feast/commit/8a714bb57093a1a77057748ad9eb1f529d34f41e))
+* Set value_type of entity directly in from_proto ([#5092](https://github.com/feast-dev/feast/issues/5092)) ([90e7498](https://github.com/feast-dev/feast/commit/90e7498c8a65eac685d35b83d709f647b03f1445))
+* Updating retrieve online documents v2 to work for other fields for sq… ([#5082](https://github.com/feast-dev/feast/issues/5082)) ([fc121c3](https://github.com/feast-dev/feast/commit/fc121c3fb96ffb6e8dcaf096ccdda3933492972d))
+
+
+### BREAKING CHANGES
+
+* The PUBLIC_URL environment variable is now taken into account by default
+when fetching the projects list. This is a breaking change only if all
+these points apply:
+
+1. You're using Feast UI as a module
+
+2. You're serving the UI files from a non-root path via the PUBLIC_URL
+   environment variable
+
+3. You're serving the project list from the root path
+
+4. You're not passing the `feastUIConfigs.projectListPromise` prop to
+   the FeastUI component
+
+In this case, you need to explicitly fetch the project list from the
+root path via the `feastUIConfigs.projectListPromise` prop:
+
+```diff
+ const root = createRoot(document.getElementById("root")!);
+ root.render(
+   <React.StrictMode>
+-    <FeastUI />
++    <FeastUI
++      feastUIConfigs={{
++        projectListPromise: fetch("/projects-list.json", {
++            headers: {
++              "Content-Type": "application/json",
++            },
++          }).then((res) => res.json())
++      }}
++    />
+   </React.StrictMode>
+ );
+```
+
+Signed-off-by: Harri Lehtola <peruukki@hotmail.com>
+
+# [0.46.0](https://github.com/feast-dev/feast/compare/v0.45.0...v0.46.0) (2025-02-17)
+
+
+### Bug Fixes
+
+* Add scylladb to online stores list in docs ([#5061](https://github.com/feast-dev/feast/issues/5061)) ([08183ed](https://github.com/feast-dev/feast/commit/08183ed38581eb655e2f6055c50b9223fcf9662e))
+* Changed feast operator to set status of featurestore cr to ready based on deployment.status = available ([#5020](https://github.com/feast-dev/feast/issues/5020)) ([fce0d35](https://github.com/feast-dev/feast/commit/fce0d35bc00553269fff6abb7a16897577a2421f))
+* Ensure Postgres queries are committed or autocommit is used ([#5039](https://github.com/feast-dev/feast/issues/5039)) ([46f8d7a](https://github.com/feast-dev/feast/commit/46f8d7aa87cfaf36d17c162c4f41cd983a2938d5))
+* Fixing the release workflow to refresh the stable branch when the release is not running in the dry run mode. ([#5057](https://github.com/feast-dev/feast/issues/5057)) ([a13fa9b](https://github.com/feast-dev/feast/commit/a13fa9bd18be94b349954e5db66fd30ba4db1d1e))
+* Operator - make onlineStore the default service ([#5044](https://github.com/feast-dev/feast/issues/5044)) ([6c92447](https://github.com/feast-dev/feast/commit/6c92447d1507bff02451f77f134df0a24cbd8036))
+* Operator - resolve infinite reconciler loop in authz controller ([#5056](https://github.com/feast-dev/feast/issues/5056)) ([11e4548](https://github.com/feast-dev/feast/commit/11e45482b0cace1f3c3a0ddc567a8a1172d6792a))
+* Resolve module on windows ([#4827](https://github.com/feast-dev/feast/issues/4827)) ([efbffa4](https://github.com/feast-dev/feast/commit/efbffa4be0f38166ff35f133a9b69bcbd243debd))
+* Setting the github_token explicitly to see if that solves the problem. ([#5012](https://github.com/feast-dev/feast/issues/5012)) ([3834ffa](https://github.com/feast-dev/feast/commit/3834ffa31f52b9a68b27a9f898538827ee8e5c39))
+* Validate entities when running get_online_features ([#5031](https://github.com/feast-dev/feast/issues/5031)) ([3bb0dca](https://github.com/feast-dev/feast/commit/3bb0dca1692fb7087e967a9fc33a4b08720b13d2))
+
+
+### Features
+
+* Add SQLite retrieve_online_documents_v2 ([#5032](https://github.com/feast-dev/feast/issues/5032)) ([0fffe21](https://github.com/feast-dev/feast/commit/0fffe211be9db18d318634f47bc9401fd6e218a0))
+* Adding Click command to display configuration details ([#5036](https://github.com/feast-dev/feast/issues/5036)) ([ae68e4d](https://github.com/feast-dev/feast/commit/ae68e4de0c184dc2990ea7e8d08d2d7f1613b06f))
+* Adding volumes and volumeMounts support to Feature Store CR. ([#4983](https://github.com/feast-dev/feast/issues/4983)) ([ec6f1b7](https://github.com/feast-dev/feast/commit/ec6f1b750ed49ef36c5e3aa9f8db1d030bf80047))
+* Moving the job to seperate action so that we can test it easily. ([#5013](https://github.com/feast-dev/feast/issues/5013)) ([b9325b7](https://github.com/feast-dev/feast/commit/b9325b7f42b8866fa43b1c7567e3288dd589020f))
+* Operator - make server container creation explicit in the CR ([#5024](https://github.com/feast-dev/feast/issues/5024)) ([b16fb40](https://github.com/feast-dev/feast/commit/b16fb400fd63fdc0168cb1f845638fc003724fd4))
+
 # [0.45.0](https://github.com/feast-dev/feast/compare/v0.44.0...v0.45.0) (2025-02-04)
 
 
