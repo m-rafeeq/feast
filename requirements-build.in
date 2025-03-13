@@ -43,5 +43,5 @@ typing-extensions!=4.7.0,>=4.6.0
 versioneer==0.29
 versioneer[toml]
 
-feast[aws,gcp,snowflake,redis,go,mysql,postgres,opentelemetry,grpcio,k8s,duckdb,milvus]==0.46.0
+feast[aws,gcp,snowflake,redis,go,mysql,postgres,opentelemetry,grpcio,k8s,duckdb,milvus]==0.47.0
 
