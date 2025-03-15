@@ -552,9 +552,9 @@ feast[aws,duckdb,gcp,go,grpcio,k8s,milvus,mysql,opentelemetry,postgres,redis,sno
     --hash=sha256:600ca26e3b756a69be0dfa9f61c9c80458b78187a9f34f26410da4d2e93d05b4 \
     --hash=sha256:bb257cfe238496e0bac4e62360f4b7af6c1d4265b0c32a96c4b3d37cd7e7a3a3
     # via -r requirements-build.in
-filelock==3.17.0 \
-    --hash=sha256:533dc2f7ba78dc2f0f531fc6c4940addf7b70a481e269a5a3b93be94ffbe8338 \
-    --hash=sha256:ee4e77401ef576ebb38cd7f13b9b28893194acc20a8e68e18730ba9c0e54660e
+filelock==3.18.0 \
+    --hash=sha256:adbc88eabb99d2fec8c9c1b229b171f18afa655400173ddc653d5d01501fb9f2 \
+    --hash=sha256:c401f4f8377c4464e6db25fff06205fd89bdd83b65eb0488ed1b160f780e21de
     # via snowflake-connector-python
 flit-core==3.11.0 \
     --hash=sha256:6ceeee3219e9d2ea282041f3e027c441597b450b33007cb81168e887b6113a8f \
