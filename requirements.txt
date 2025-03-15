@@ -919,9 +919,9 @@ grpcio-reflection==1.70.0 \
     --hash=sha256:5b8730dbb316ebc0b592863f391a6effa8261be1b74022facfc2aa28639ddbfd \
     --hash=sha256:af46ce13e57fd7602deaef5b1d1903f6644f8982cc00f62fa9fa5b928acf6a49
     # via feast
-grpcio-status==1.71.0rc2 \
-    --hash=sha256:1482248ac9a9b58401b0310b2825ebab581c8fe272aebe1eaa3e0cf8ee127869 \
-    --hash=sha256:b52855140e320503552aca90a7ac309b903651fe3ee30e1c79092143d6f4e362
+grpcio-status==1.71.0 \
+    --hash=sha256:11405fed67b68f406b3f3c7c5ae5104a79d2d309666d10d61b152e91d28fb968 \
+    --hash=sha256:843934ef8c09e3e858952887467f8256aac3910c55f077a359a65b2b3cde3e68
     # via google-api-core
 gunicorn==23.0.0 \
     --hash=sha256:ec400d38950de4dfd418cff8328b2c8faed0edb0d517d3394e457c317908ca4d \
