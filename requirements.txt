@@ -2454,9 +2454,9 @@ sqlalchemy[mypy]==2.0.38 \
     # via
     #   feast
     #   sqlalchemy
-sqlglot==25.20.2 \
-    --hash=sha256:169fe8308dd70d7bd40117b2221b62bdc7c4e2ea8eb07394b2a6146cdedf05ab \
-    --hash=sha256:cdbfd7ce3f2f39f32bd7b4c23fd9e0fd261636a6b14285b914e8def25fd0a567
+sqlglot==25.34.1 \
+    --hash=sha256:15099f8af832e6f5593fb92211d8b3f0810744ac0dc443fb70010fa38dc2562b \
+    --hash=sha256:6952c083c4a8b8de3c09c10b262a03c6853071bd397f05759c08f1e2f3c683cb
     # via ibis-framework
 starlette==0.46.0 \
     --hash=sha256:913f0798bd90ba90a9156383bcf1350a17d6259451d0d8ee27fc0cf2db609038 \
