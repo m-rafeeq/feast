@@ -709,9 +709,9 @@ google-cloud-bigtable==2.29.0 \
     --hash=sha256:7325cc847fb73bb5fd2e013bce5b7e8e01c03c1f10d8204635b1e3f73fd266fb \
     --hash=sha256:912c02a72f910afc5535f193fcc0e7d0666920b43622e957f6c76729fffbe7b2
     # via feast
-google-cloud-core==2.4.2 \
-    --hash=sha256:7459c3e83de7cb8b9ecfec9babc910efb4314030c56dd798eaad12c426f7d180 \
-    --hash=sha256:a4fcb0e2fcfd4bfe963837fad6d10943754fd79c1a50097d68540b6eb3d67f35
+google-cloud-core==2.4.3 \
+    --hash=sha256:1fab62d7102844b278fe6dead3af32408b1df3eb06f5c7e8634cbd40edc4da53 \
+    --hash=sha256:5130f9f4c14b4fafdff75c79448f9495cfade0d8775facf1b09c3bf67e027f6e
     # via
     #   google-cloud-bigquery
     #   google-cloud-bigtable
