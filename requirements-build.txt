@@ -2509,9 +2509,9 @@ types-pymysql==1.1.0.20241103 \
     --hash=sha256:1a32efd8a74b5bf74c4de92a86c1cc6edaf3802dcfd5546635ab501eb5e3c096 \
     --hash=sha256:a7628542919a0ba87625fb79eefb2a2de45fb4ad32afe6e561e8f2f27fb58b8c
     # via feast
-types-setuptools==75.8.2.20250301 \
-    --hash=sha256:3cc3e751db9e84eddf1e6d4f8c46bef2c77e6c25b0cd096f729ffa57d3d6a83a \
-    --hash=sha256:c900bceebfffc92a4abc3cfd4b3c39ead1a2298a73dae37e6bc09da7baf797a0
+types-setuptools==75.8.2.20250305 \
+    --hash=sha256:a987269b49488f21961a1d99aa8d281b611625883def6392a93855b31544e405 \
+    --hash=sha256:ba80953fd1f5f49e552285c024f75b5223096a38a5138a54d18ddd3fa8f6a2d4
     # via -r requirements-build.in
 typing-extensions==4.12.2 \
     --hash=sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d \
