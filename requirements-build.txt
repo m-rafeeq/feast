@@ -845,9 +845,9 @@ greenlet==3.1.1 \
     --hash=sha256:f406b22b7c9a9b4f8aa9d2ab13d6ae0ac3e85c9a809bd590ad53fed2bf70dc79 \
     --hash=sha256:f6ff3b14f2df4c41660a7dec01045a045653998784bf8cfcb5a525bdffffbc8f
     # via -r requirements-build.in
-grpc-google-iam-v1==0.14.0 \
-    --hash=sha256:c66e07aa642e39bb37950f9e7f491f70dad150ac9801263b42b2814307c2df99 \
-    --hash=sha256:fb4a084b30099ba3ab07d61d620a0d4429570b13ff53bd37bac75235f98b7da4
+grpc-google-iam-v1==0.14.2 \
+    --hash=sha256:a3171468459770907926d56a440b2bb643eec1d7ba215f48f3ecece42b4d8351 \
+    --hash=sha256:b3e1fc387a1a329e41672197d0ace9de22c78dd7d215048c4c78712073f7bd20
     # via google-cloud-bigtable
 grpcio==1.71.0rc2 \
     --hash=sha256:04a287ea6d6e20b3ab9fc6c8a22d75d76289b63250b5e672509f4d0685587ecc \
