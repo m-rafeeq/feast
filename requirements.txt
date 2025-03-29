@@ -544,9 +544,9 @@ environs==9.5.0 \
     --hash=sha256:1e549569a3de49c05f856f40bce86979e7d5ffbbc4398e7f338574c220189124 \
     --hash=sha256:a76307b36fbe856bdca7ee9161e6c466fd7fcffc297109a118c59b54e27e30c9
     # via pymilvus
-fastapi==0.115.11 \
-    --hash=sha256:32e1541b7b74602e4ef4a0260ecaf3aadf9d4f19590bba3e1bf2ac4666aa2c64 \
-    --hash=sha256:cc81f03f688678b92600a65a5e618b93592c65005db37157147204d8924bf94f
+fastapi==0.115.12 \
+    --hash=sha256:1e2c2a2646905f9e83d32f04a3f86aff4a286669c6c950ca95b5fd68c2602681 \
+    --hash=sha256:e94613d6c05e27be7ffebdd6ea5f388112e5e430c8f7d6494a9d1d88d43e814d
     # via feast
 feast[aws,duckdb,gcp,go,grpcio,k8s,milvus,mysql,opentelemetry,postgres,redis,snowflake]==0.47.0 \
     --hash=sha256:600ca26e3b756a69be0dfa9f61c9c80458b78187a9f34f26410da4d2e93d05b4 \
