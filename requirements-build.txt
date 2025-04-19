@@ -1089,9 +1089,9 @@ httptools==0.6.4 \
     --hash=sha256:f9eb89ecf8b290f2e293325c646a211ff1c2493222798bb80a530c5e7502494f \
     --hash=sha256:fc411e1c0a7dcd2f902c7c48cf079947a7e65b5485dea9decb82b9105ca71a43
     # via uvicorn
-ibis-framework[duckdb]==9.5.0 \
-    --hash=sha256:145fe30d94f111cff332580c275ce77725c5ff7086eede93af0b371649d009c0 \
-    --hash=sha256:1c8a29277e63ee0dfc289bc8f550164b5e3bdaec1b76b62436c37d331bb4ef84
+ibis-framework[duckdb]==10.5.0 \
+    --hash=sha256:71715839e655c37c12e4ff3cd6fe1e8ba82350faab074b1a5324084734a8fe15 \
+    --hash=sha256:b266c905bff220821e580b14504644e688379af6880ec11882e7176d9d89f096
     # via feast
 idna==3.10 \
     --hash=sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9 \
