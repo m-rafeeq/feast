@@ -2313,9 +2313,9 @@ setuptools-rust==1.10.2 \
     --hash=sha256:4b39c435ae9670315d522ed08fa0e8cb29f2a6048033966b6be2571a90ce4f1c \
     --hash=sha256:5d73e7eee5f87a6417285b617c97088a7c20d1a70fcea60e3bdc94ff567c29dc
     # via -r requirements-build.in
-setuptools-scm==7.1.0 \
-    --hash=sha256:6c508345a771aad7d56ebff0e70628bf2b0ec7573762be9960214730de278f27 \
-    --hash=sha256:73988b6d848709e2af142aa48c986ea29592bbcfca5375678064708205253d8e
+setuptools-scm==8.3.1 \
+    --hash=sha256:332ca0d43791b818b841213e76b1971b7711a960761c5bea5fc5cdb5196fbce3 \
+    --hash=sha256:3d555e92b75dacd037d32bafdf94f97af51ea29ae8c7b234cf94b7a5bd242a63
     # via
     #   -r requirements-build.in
     #   hatch-vcs
