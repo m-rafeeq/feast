@@ -1905,9 +1905,9 @@ pyarrow==17.0.0 \
     #   ibis-framework
     #   pandas-gbq
     #   snowflake-connector-python
-pyarrow-hotfix==0.6 \
-    --hash=sha256:79d3e030f7ff890d408a100ac16d6f00b14d44a502d7897cd9fc3e3a534e9945 \
-    --hash=sha256:dcc9ae2d220dff0083be6a9aa8e0cdee5182ad358d4931fce825c545e5c89178
+pyarrow-hotfix==0.7 \
+    --hash=sha256:3236f3b5f1260f0e2ac070a55c1a7b339c4bb7267839bd2015e283234e758100 \
+    --hash=sha256:59399cd58bdd978b2e42816a4183a55c6472d4e33d183351b6069f11ed42661d
     # via ibis-framework
 pyasn1==0.6.1 \
     --hash=sha256:0d632f46f2ba09143da3a8afe9e33fb6f92fa2320ab7e886e2d0f7672af84629 \
