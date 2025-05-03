@@ -548,9 +548,9 @@ fastapi==0.115.11 \
     --hash=sha256:32e1541b7b74602e4ef4a0260ecaf3aadf9d4f19590bba3e1bf2ac4666aa2c64 \
     --hash=sha256:cc81f03f688678b92600a65a5e618b93592c65005db37157147204d8924bf94f
     # via feast
-feast[aws,duckdb,gcp,go,grpcio,k8s,milvus,mysql,opentelemetry,postgres,redis,snowflake]==0.47.0 \
-    --hash=sha256:600ca26e3b756a69be0dfa9f61c9c80458b78187a9f34f26410da4d2e93d05b4 \
-    --hash=sha256:bb257cfe238496e0bac4e62360f4b7af6c1d4265b0c32a96c4b3d37cd7e7a3a3
+feast[aws,duckdb,gcp,go,grpcio,k8s,milvus,mysql,opentelemetry,postgres,redis,snowflake]==0.49.0 \
+    --hash=sha256:3e64f0dd7d994a6c4d0a3c2bfa5880f2bfefe8026a8959228c871f3d1acaedba \
+    --hash=sha256:94bced80b25a6fcf09d176767a3c337e13252b65d9be04028a353e8c08f358ed
     # via -r requirements-build.in
 filelock==3.17.0 \
     --hash=sha256:533dc2f7ba78dc2f0f531fc6c4940addf7b70a481e269a5a3b93be94ffbe8338 \
