@@ -4,9 +4,9 @@
 #
 #    pip-compile --allow-unsafe --generate-hashes requirements-build.in
 #
-aiobotocore==2.21.0 \
-    --hash=sha256:03d64a41e313ebce76fd7c3e4c854e560032ac5cf71f4d5072616ca6fb9701b5 \
-    --hash=sha256:05b4e29690a07913297686d819dc8dac341a5361f14fedf444bdd77ae1e36554
+aiobotocore==2.22.0 \
+    --hash=sha256:11091477266b75c2b5d28421c1f2bc9a87d175d0b8619cb830805e7a113a170b \
+    --hash=sha256:b4e6306f79df9d81daff1f9d63189a2dbee4b77ce3ab937304834e35eaaeeccf
     # via feast
 aiohappyeyeballs==2.4.6 \
     --hash=sha256:147ec992cf873d74f5062644332c539fcd42956dc69453fe5204195e560517e1 \
