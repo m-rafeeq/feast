@@ -1230,9 +1230,9 @@ meson==1.7.0 \
     # via
     #   -r requirements-build.in
     #   meson-python
-meson-python==0.15.0 \
-    --hash=sha256:3ae38253ff02b2e947a05e362a2eaf5a9a09d133c5666b4123399ee5fbf2e591 \
-    --hash=sha256:fddb73eecd49e89c1c41c87937cd89c2d0b65a1c63ba28238681d4bd9484d26f
+meson-python==0.18.0 \
+    --hash=sha256:3b0fe051551cc238f5febb873247c0949cd60ded556efa130aa57021804868e2 \
+    --hash=sha256:c56a99ec9df669a40662fe46960321af6e4b14106c14db228709c1628e23848d
     # via -r requirements-build.in
 milvus-lite==2.4.11 \
     --hash=sha256:551f56b49fcfbb330b658b4a3c56ed29ba9b692ec201edd1f2dade7f5e39957d \
