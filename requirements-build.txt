@@ -1785,9 +1785,9 @@ psutil==7.0.0 \
     --hash=sha256:a5f098451abc2828f7dc6b58d44b532b22f2088f4999a937557b603ce72b1993 \
     --hash=sha256:ba3fcef7523064a6c9da440fc4d6bd07da93ac726b5733c29027d7dc95b39d99
     # via feast
-psycopg[binary,pool]==3.2.5 \
-    --hash=sha256:b782130983e5b3de30b4c529623d3687033b4dafa05bb661fc6bf45837ca5879 \
-    --hash=sha256:f5f750611c67cb200e85b408882f29265c66d1de7f813add4f8125978bfd70e8
+psycopg[binary,pool]==3.2.9 \
+    --hash=sha256:01a8dadccdaac2123c916208c96e06631641c0566b22005493f09663c7a8d3b6 \
+    --hash=sha256:2fbb46fcd17bc81f993f28c47f1ebea38d66ae97cc2dbc3cad73b37cefbff700
     # via feast
 psycopg-binary==3.2.5 \
     --hash=sha256:02fb96091e2fb3ea1470b113fef08953baaedbca1d39a3f72d82cb615177846c \
