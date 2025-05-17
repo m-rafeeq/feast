@@ -2152,9 +2152,9 @@ pyyaml==6.0.2 \
     #   feast
     #   kubernetes
     #   uvicorn
-redis==4.6.0 \
-    --hash=sha256:585dc516b9eb042a619ef0a39c3d7d55fe81bdb4df09a52c9cdde0d07bf1aa7d \
-    --hash=sha256:e2b03db868160ee4591de3cb90d40ebb50a90dd302138775937f6a42b7ed183c
+redis==6.1.0 \
+    --hash=sha256:3b72622f3d3a89df2a6041e82acd896b0e67d9f54e9bcd906d091d23ba5219f6 \
+    --hash=sha256:c928e267ad69d3069af28a9823a07726edf72c7e37764f43dc0123f37928c075
     # via feast
 referencing==0.36.2 \
     --hash=sha256:df2e89862cd09deabbdba16944cc3f10feb6b3e6f18e902f7cc25609a34775aa \
