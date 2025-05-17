@@ -2299,9 +2299,9 @@ s3transfer==0.11.3 \
     --hash=sha256:ca855bdeb885174b5ffa95b9913622459d4ad8e331fc98eb01e6d5eb6a30655d \
     --hash=sha256:edae4977e3a122445660c7c114bba949f9d191bae3b34a096f18a1c8c354527a
     # via boto3
-scikit-build-core==0.11.0 \
-    --hash=sha256:04508609970fb4819d211197b8315bde9ee493ef4d20f08aa7447b0bf652523c \
-    --hash=sha256:423d8b0885bf1942816c851f8ec7c1efc0a7ecad4f38ff43d5ba869a894b107b
+scikit-build-core==0.11.3 \
+    --hash=sha256:74baf7cbc089f8621cc0646d9c5679034d5be1b014c10912dc32a4bcd1092506 \
+    --hash=sha256:9f222e10021734367a749c8062ed12119bea82d451d07674a2de9bff4832bbea
     # via -r requirements-build.in
 semantic-version==2.10.0 \
     --hash=sha256:bdabb6d336998cbb378d4b9db3a4b56a1e3235701dc05ea2690d9a997ed5041c \
