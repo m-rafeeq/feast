@@ -472,9 +472,9 @@ dask[array,dataframe]==2025.2.0 \
     --hash=sha256:89c87125d04d28141eaccc4794164ce9098163fd22d8ad943db48f8d4c815460 \
     --hash=sha256:f0fdeef6ceb0a06569d456c9e704f220f7f54e80f3a6ea42ab98cea6bc642b6e
     # via feast
-db-dtypes==1.4.1 \
-    --hash=sha256:36403e252c03c4a5073f67e4315015c7d1f57b2614f56d2037587e0743670fb8 \
-    --hash=sha256:84076e2f952174da3eea16c2692409a0d3ef88d27b68c24ee0c9262513fa26d4
+db-dtypes==1.4.3 \
+    --hash=sha256:a1c92b819af947fae1701d80a71f2a0eac08f825ca52cf0c68aeba80577ae966 \
+    --hash=sha256:d3cb08c32939d24e05501f17694be8c1c54cfb4620d61fb56fb311e8c3d8885e
     # via
     #   google-cloud-bigquery
     #   pandas-gbq
