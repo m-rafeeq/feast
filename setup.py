@@ -86,7 +86,7 @@ SNOWFLAKE_REQUIRED = [
 ]
 
 SPARK_REQUIRED = [
-    "pyspark>=3.0.0,<4",
+    "pyspark>=4,<5",
 ]
 
 SQLITE_VEC_REQUIRED = [
