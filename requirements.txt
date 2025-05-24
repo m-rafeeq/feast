@@ -540,9 +540,9 @@ duckdb==1.1.3 \
     --hash=sha256:f58db1b65593ff796c8ea6e63e2e144c944dd3d51c8d8e40dffa7f41693d35d3 \
     --hash=sha256:f9b47036945e1db32d70e414a10b1593aec641bd4c5e2056873d971cc21e978b
     # via ibis-framework
-environs==9.5.0 \
-    --hash=sha256:1e549569a3de49c05f856f40bce86979e7d5ffbbc4398e7f338574c220189124 \
-    --hash=sha256:a76307b36fbe856bdca7ee9161e6c466fd7fcffc297109a118c59b54e27e30c9
+environs==14.2.0 \
+    --hash=sha256:22669a58d53c5b86a25d0231c4a41a6ebeb82d3942b8fbd9cf645890c92a1843 \
+    --hash=sha256:2b6c78a77dfefb57ca30d43a232270ecc82adabf67ab318e018084b9a3529e9b
     # via pymilvus
 fastapi==0.115.11 \
     --hash=sha256:32e1541b7b74602e4ef4a0260ecaf3aadf9d4f19590bba3e1bf2ac4666aa2c64 \
