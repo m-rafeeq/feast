@@ -1601,9 +1601,9 @@ pandas==2.2.3 \
     #   pandas-gbq
     #   pymilvus
     #   snowflake-connector-python
-pandas-gbq==0.28.0 \
-    --hash=sha256:6be441dff24cde87ebf1e61ee66a3a7c51c4894aa1db0f9983a2c927f57caad3 \
-    --hash=sha256:daa4ffb80c1c262185059adb4551ac0cc52013ca3b7ab72c11cec1011f242ae5
+pandas-gbq==0.29.0 \
+    --hash=sha256:0da0cd736485b8ae18af94c217610ba77ac861c2a294f3ae763e65b5a985d225 \
+    --hash=sha256:dbe3f5251cab8e91c935d13acad9d53beb01384d89db9212b0f7763be659d1e4
     # via google-cloud-bigquery
 parsy==2.1 \
     --hash=sha256:8f18e7b11985e7802e7e3ecbd8291c6ca243d29820b1186e4c84605db4efffa0 \
