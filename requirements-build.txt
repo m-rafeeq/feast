@@ -1224,9 +1224,9 @@ mdurl==0.1.2 \
     --hash=sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8 \
     --hash=sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba
     # via markdown-it-py
-meson==1.7.0 \
-    --hash=sha256:08efbe84803eed07f863b05092d653a9d348f7038761d900412fddf56deb0284 \
-    --hash=sha256:ae3f12953045f3c7c60e27f2af1ad862f14dee125b4ed9bcb8a842a5080dbf85
+meson==1.8.1 \
+    --hash=sha256:374bbf71247e629475fc10b0bd2ef66fc418c2d8f4890572f74de0f97d0d42da \
+    --hash=sha256:b4e3b80e8fa633555abf447a95a700aba1585419467b2710d5e5bf88df0a7011
     # via
     #   -r requirements-build.in
     #   meson-python
