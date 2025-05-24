@@ -468,9 +468,9 @@ cython==3.0.12 \
     --hash=sha256:feb86122a823937cc06e4c029d80ff69f082ebb0b959ab52a5af6cdd271c5dc3 \
     --hash=sha256:ff5c0b6a65b08117d0534941d404833d516dac422eee88c6b4fd55feb409a5ed
     # via -r requirements-build.in
-dask[array,dataframe]==2025.2.0 \
-    --hash=sha256:89c87125d04d28141eaccc4794164ce9098163fd22d8ad943db48f8d4c815460 \
-    --hash=sha256:f0fdeef6ceb0a06569d456c9e704f220f7f54e80f3a6ea42ab98cea6bc642b6e
+dask[array,dataframe]==2025.5.1 \
+    --hash=sha256:3b85fdaa5f6f989dde49da6008415b1ae996985ebdfb1e40de2c997d9010371d \
+    --hash=sha256:979d9536549de0e463f4cab8a8c66c3a2ef55791cd740d07d9bf58fab1d1076a
     # via feast
 db-dtypes==1.4.1 \
     --hash=sha256:36403e252c03c4a5073f67e4315015c7d1f57b2614f56d2037587e0743670fb8 \
