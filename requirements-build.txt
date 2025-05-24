@@ -2052,9 +2052,9 @@ pyjwt==2.10.1 \
     # via
     #   feast
     #   snowflake-connector-python
-pymilvus==2.4.9 \
-    --hash=sha256:0937663700007c23a84cfc0656160b301f6ff9247aaec4c96d599a6b43572136 \
-    --hash=sha256:45313607d2c164064bdc44e0f933cb6d6afa92e9efcc7f357c5240c57db58fbe
+pymilvus==2.5.10 \
+    --hash=sha256:7da540f93068871cda3941602c55227aeaafb66f2f0d9c05e8f9db783716b100 \
+    --hash=sha256:cc44ad776aeab781ee4c4a4d334b73e746066ab2fb6722c5311f02efa6fc54a2
     # via feast
 pymysql==1.1.1 \
     --hash=sha256:4de15da4c61dc132f4fb9ab763063e693d521a80fd0e87943b9a453dd4c19d6c \
